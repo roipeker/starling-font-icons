@@ -2,14 +2,14 @@
 Font Icons collection for Starling.
 
 Usage is very simple, as it relies on Starling TextField:
-
+```
 var icoMenu:FontIcon = new FontIcon(IcoFeather.menu, 24);
 icoMenu.color = 0x0;
 icoMenu.size = 40 ;
 icoMenu.x = 50;
 icoMenu.y = 100;
 addChild(icoMenu);
-
+```
 
 Compared to the old SWC version, here the TTF files are better generated.
 Correct glyph grid size, baseline 0% (icon has no weird offsets) and adjusted unicode values
