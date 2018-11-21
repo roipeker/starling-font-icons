@@ -36,6 +36,18 @@ https://ionicons.com/
 
 https://material.io/tools/icons/
 
+https://docs.microsoft.com/en-us/windows/uwp/design/style/segoe-ui-symbol-font
+
+
+- Update Nov 21:
+
+Included most Segoe MDL2 Assets icons. It took a lot of work and cleanup for the duplicated glyphs in multiple unicode-ranges, so most ligatures are available.
+So, if you ever need to do a UWP app, this is your FontIcon.
+
+NOTE: Remember, as this is a custom font version, the ranges are adapted to safer unicode tables for ActionScript, so don't expect to use the official unicode values, like &#xe00c;, instead you should use the glyph name from the official doc. Open explorer/roi-segmdl2/demo.html to check the mapped unicode values.
+
+
+
 
 Enjoy.
 
