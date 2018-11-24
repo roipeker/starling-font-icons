@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'roi-cupertino';
-  src: url('../../fonts/roi-cupertino.ttf?veleas') format('truetype');
+  src: url('../../embed/roi-cupertino.ttf?veleas') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
